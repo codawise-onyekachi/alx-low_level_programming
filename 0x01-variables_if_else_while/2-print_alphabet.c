@@ -7,25 +7,18 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 
 {
+	char c;
+	c = 'a';
+	while (c <= 'z')
+	{
+		putchar(c);
+		c = c + 1;
+	}
 
-	        char c;
-
-		c = 'a';
-		while(c <= 'z')
-
-		{
-
-			 putchar(c);
-
-											     		 putchar('\n');
-											                c = c+1;
-												 }
-
-
-		return (0);
-
+	return (0);
 }
+
 
