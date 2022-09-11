@@ -3,15 +3,12 @@
 #include <stdlib.h>
 
 #include <limits.h>
-
 /**
 * main - Entry point
 * putchar - prints out the alphabets
 * Return: Always 0 (Success)
 */
-
-
-int main()
+int main(void)
 
 {
 	char c;
