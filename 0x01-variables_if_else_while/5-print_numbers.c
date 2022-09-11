@@ -1,7 +1,5 @@
-#include <stdlib.h>                                                                                                                                             
-
-#include <time.h>                                                                                                                                               
-
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>                                                                                                                                     
 /**                                                                             * main - Entry point
 * printf - prints out the numbers 
@@ -15,6 +13,7 @@ int main(void)
 	{
 		printf("%d", i);
 	}
+	printf("\n");
 	return (0);
 }
 
