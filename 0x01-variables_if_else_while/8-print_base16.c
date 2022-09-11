@@ -5,7 +5,7 @@
 /**
  * main - the entry point
  * putchar - output the result
- * RETURN: exit success
+ * Return: Always 0 (success)
  */
 
 int main(void)
