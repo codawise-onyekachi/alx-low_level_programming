@@ -2,6 +2,7 @@
 
 /**
  * _islower - check description
+ * @c: An input character
  * Description: prints the 1 or 0 as required
  * Return: return 1 for lower case letters. 0 for the rest
  */
