@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-int _putchar()
+int main(void)
 {
 	char word[8] = "_putchar";
 
