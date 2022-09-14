@@ -2,6 +2,7 @@
 
 /**
  * main - entry point
+ * print_alphabet - prints the alphabet in lower letters, followed by a new line
  * Return: Always 0 (success)
  */
 
