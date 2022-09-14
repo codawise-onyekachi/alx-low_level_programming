@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry point
- * Return: Always 0 (success)
+ * print_alphabet_x10 - check description
+ * Description: prints the alphabet 10 times followed by new line
+ * _putchar - output the result
  */
 
 void print_alphabet_x10(void)
