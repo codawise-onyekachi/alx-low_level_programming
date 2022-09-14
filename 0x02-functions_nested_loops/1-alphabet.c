@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - entry point
- * print_alphabet - function, prints the alphabet in lower letters
+ * print_alphabet - check description
+ * Description: prints the alphabet in lower letters
  * Return: Always 0 (success)
  */
 
