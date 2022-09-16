@@ -3,6 +3,8 @@
 /**
  * print_diagonal - function description
  * Description: prints out the diagonal
+ * @n - the number of diagonal printed
+ * putchar - output the result
  */
 
 void print_diagonal(int n)
