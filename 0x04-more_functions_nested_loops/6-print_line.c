@@ -3,6 +3,8 @@
 
 /**
  * print_line - function description
+ * @n - number of times the line is printed
+ * putchar - output the result
  * Description: output a straight line in the terminal
  */
 
