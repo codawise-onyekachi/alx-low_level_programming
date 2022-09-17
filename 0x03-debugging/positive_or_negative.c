@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 
 /**                                                                             * main - Entry poit                                                             * if - evaluates condition               
 * printf - prints out the true condition                                   
  * Return: Always 0 (Success)                                                   */
 
-int positive_or_negative()
+int positive_or_negative(int i)
 {
-	int i;
 
 	srand(time(0));
 
