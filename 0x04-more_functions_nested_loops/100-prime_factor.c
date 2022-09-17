@@ -13,7 +13,7 @@ int main (void)
 
 	for (factor = 2;factor < num; factor++)
 	{
-		if (num / factor == 0)
+		if (num % factor == 0)
 		{
 			num = num / factor;
 		}
