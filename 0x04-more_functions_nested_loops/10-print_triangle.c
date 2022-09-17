@@ -15,20 +15,20 @@ void print_triangle(int size)
 	{
 		for (h = 0; h <= size; h++)
 		{
-			for(base = size; base >= 1; base--)
+			for(base = size - h; base > 0; base--)
 			{
-				if (h < base)
-				{
-					putchar(' ');
-				}
-				else
-				{
-					putchar('#');
-				}
+				putchar(' ');
+			}
+			for (base = 0; base < h; base++)
+			{
+				putchar('#');
+			}
+			if (h == size)
+			{
+				continue;
 			}
 			putchar('\n');
 		}
 	}
-	else
-		putchar('\n');
+	putchar('\n');
 }
