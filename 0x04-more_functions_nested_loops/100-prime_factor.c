@@ -8,19 +8,15 @@
 int main (void)
 {
 	long factor;
-
 	long num = 612852475143;
-
 	for (factor = 2;factor < num; factor++)
 	{
 		if (num % factor == 0)
 		{
 			num = num / factor;
 		}
-
 	}
+
 	printf("%li\n", num);
-
 	return (0);
-
 }
