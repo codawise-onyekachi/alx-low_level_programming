@@ -11,4 +11,22 @@ void print_triangle(int size)
 
 	if (size > 0)
 	{
-		for
+		for (h = 0; h <= size; h++)
+		{
+			for(base = size; base >= 1; base--)
+			{
+				if (h < base)
+				{
+					putchar(' ');
+				}
+				else
+				{
+					putchar('#');
+				}
+			}
+			putchar('\n');
+		}
+	}
+	else
+		putchar('\n');
+}
