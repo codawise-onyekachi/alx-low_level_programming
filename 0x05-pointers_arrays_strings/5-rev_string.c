@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- *
+ * rev_string - function description
+ * Description: reverse a string followed by new line
+ * @s: input string
  */
 
 void rev_string(char *s)
 {
 	int len = 0;
-	
 	int i = 0;
 
 	char p;
