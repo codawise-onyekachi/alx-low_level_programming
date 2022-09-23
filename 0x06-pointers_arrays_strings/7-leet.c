@@ -25,7 +25,6 @@ char *leet(char *s)
 			if (s[i] == str[j])
 			{
 				s[i] = subs[j];
-
 			}
 		}
 		i++;
