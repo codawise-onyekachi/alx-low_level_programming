@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strchar - funtion description
- * Description: concatenates two strings
+ * _strchar - A funtion that concatenates two strings
  * @dest: input string
  * @src: input string
  * Return:A pointer to the resulting string
