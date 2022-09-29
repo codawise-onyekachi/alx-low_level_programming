@@ -10,7 +10,7 @@
 
 int _strlen_recursion(char *s)
 {
-	while (*s)
+	if (*s)
 	{
 		return (_strlen_recursion(s + 1) + 1);
 
