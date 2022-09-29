@@ -3,9 +3,9 @@
 int is_divisible(int num, int div);
 
 /**
- * _is_prime_number - function description
+ * is_prime_number - function description
  * Description:checks if a number is prime
- * @:an input integer
+ * @n:an input integer
  * Return:returns 1 if n is prime or  0 in otherwise
  */
 
