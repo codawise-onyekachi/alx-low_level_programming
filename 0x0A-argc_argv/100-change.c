@@ -6,10 +6,10 @@
  * main - function description
  * Description: a function prints the minimum number of coins to make change 
  * for an amount of money
- *  @argc: number of command line arguments.
- *  @argv: array that contains the program command line arguments.
- *  Return: return 1 if the number of arguments passed is not exactly
- *  or 0 in otherwise
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: return 1 if the number of arguments passed is not exactly
+ * or 0 in otherwise
  */
 
 int main(int argc, char *argv[])
