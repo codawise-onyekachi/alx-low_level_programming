@@ -6,7 +6,7 @@
  * Description: prints its name,followed by a new line
  * argc: agument count
  * @argv: argument value, a strings that come after calling function
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 
 int main(int argc, char *argv[])
@@ -17,5 +17,4 @@ int main(int argc, char *argv[])
 
 	}
 	return (0);
-
 }
