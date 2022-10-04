@@ -1,13 +1,25 @@
 #include "main.h"
 
 /**
- * _abs - function description
- *  Description: This function returns absolute value of a number
- *  @r: An integre input
- *  Return: Absolut value of number r
+ *_abs - Check Holberton
+ * @n: An integre input
+ * Description: This function returns absolute value of a number
+ * Return: Absolut value of number r
  */
 
-int _abs(int r)
+int _abs(int n)
 {
+	if (n >= 0)
+	{
+		return (n);
+
+	}
+
+	else
+	{
+		return (-n);
+
+	}
+	_putchar('\n');
 
 }
