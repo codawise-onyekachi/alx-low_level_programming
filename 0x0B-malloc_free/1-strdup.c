@@ -11,7 +11,6 @@
 char *_strdup(char *str)
 {
 	char *new_str;
-	
 	char *start;
 
 	int i = 0;
@@ -50,11 +49,9 @@ char *_strdup(char *str)
 		new_str[i] = '\0';
 
 		return (start);
-
 	}
 	else
 	{
 		return (NULL);
-
 	}
 }
