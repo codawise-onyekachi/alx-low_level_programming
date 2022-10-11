@@ -3,9 +3,9 @@
 
 /**
  * struct dog - Short description
- * @ name: dog's name
- * @ age: dog's age
- * @ owner: dog owner
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog owner
  *
  * Description: A new type describing a dog
  */
