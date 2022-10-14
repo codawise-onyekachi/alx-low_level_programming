@@ -31,3 +31,8 @@ if the operator is none of the above, print Error, followed by a new line, and e
 if the user tries to divide (/ or %) by 0, print Error, followed by a new line, and exit with the status 100
 This task requires that you create four different files.
 
+4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
+Write a program that prints the opcodes of its own main function.
+Usage: ./main number_of_bytes
+Output format:the opcodes should be printed in hexadecimal, lowercase
+each opcode is two char long, listing ends with a new line
