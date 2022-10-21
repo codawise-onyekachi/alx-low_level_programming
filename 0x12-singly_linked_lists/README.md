@@ -20,3 +20,11 @@ str needs to be duplicated
 4. Free list
 Is a function that frees a list_t list.
 
+5. The Hare and the Tortoise
+Is afunction that prints 
+You're beat! and yet, you must allow,\nI bore my house upon my back!\n
+before the main function is executed
+
+6. Real programmers can write assembly code in any language
+Is a 64-bit program in assembly that prints Hello, Holberton, 
+followed by a new line.
