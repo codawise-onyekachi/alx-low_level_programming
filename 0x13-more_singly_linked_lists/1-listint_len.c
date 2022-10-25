@@ -3,7 +3,7 @@
 
 /**
  * listint_len - A function description
- * Description: listint_len - A function that 
+ * Description: listint_len - A function that
  * returns the number of elements in the list
  * @h: A pointer to listint_t structure
  *
