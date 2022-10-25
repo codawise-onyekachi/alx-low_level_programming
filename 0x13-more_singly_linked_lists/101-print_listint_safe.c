@@ -20,7 +20,8 @@ size_t print_listint_safe(const listint_t *head)
 	while (temp)
 	{
 		printf("[%p] %d\n", (void *)temp, temp->n);
-		counter++;temp = temp->next;
+		counter++;
+		temp = temp->next;
 		len = head;
 		new_n = 0;
 
