@@ -1,9 +1,9 @@
 #include "lists.h"
 #include <stdio.h>
 
-/***
+/**
  * print_listint_safe - function description
- * Description: A function that prints the elementsin a  list
+ * Description: A function that prints a listint_t linked list
  * @head: A pointer to listint_t structure
  *
  * Return: The number of nodes. Exits with 98 on failure
