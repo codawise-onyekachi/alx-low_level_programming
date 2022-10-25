@@ -35,3 +35,14 @@ Is  a function that deletes the node at index index of a listint_t linked list.
 where index is the index of the node that should be deleted. Index starts at 0
 Returns: 1 if it succeeded, -1 if it failed
 
+11. Reverse list
+Is a function that reverses a listint_t linked list.
+
+12. Print (safe version)
+Is a function that prints a listint_t linked list.
+
+13. Free (safe version)
+Isa function that frees a listint_t list.
+
+14. Find the loop
+Is a function that finds the loop in a linked list.
