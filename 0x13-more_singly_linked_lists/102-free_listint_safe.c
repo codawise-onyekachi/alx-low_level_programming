@@ -11,42 +11,37 @@
 
 size_t free_listint_safe(listint_t **h)
 {
-	size_t counter = 0;
+	size_t len = 0;
+	int diff;
 	listint_t *temp;
 
-	temp = *h;
-	while (temp)
+	if (!h || !*h)
 	{
-		temp = *h;
-		temp = temp->next;
-		free_list(temp);
-		counter++;
+		return (0);
 
+	}
+	while (*h)
+	{
+		diff = *h - (*h)->next;
+		if (diff > 0)
+		{
+			temp = (*h)->next;
+			free(*h);
+			*h = temp;
+			len++;
+
+		}
+		else
+		{
+			free(*h);
+			*h = NULL;
+			len++;
+			break;
+
+		}
 	}
 	*h = NULL;
-	return (counter);
 
-}
-/**
- * free_list - function description
- * Description: A function that frees a listint_t recursively
- * @head: A pointer to the listint_t structure
- *
- * Return:returns nothing
- */
-
-void free_list(listint_t *head)
-{
-	listint_t *temp;
-
-	if (head)
-	{
-		temp = head;
-		temp = temp->next;
-		free(temp);
-		free_list(temp);
-
-	}
-	free(head);
+	return (len);
 
 }
