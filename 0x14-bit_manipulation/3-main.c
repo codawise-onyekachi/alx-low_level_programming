@@ -7,7 +7,7 @@
  * Retur:Always 0
  */
 
-int mai(void)
+int main(void)
 {
 	unsigned long int n;
 
